@@ -1,0 +1,395 @@
+
+body {
+    margin: 0;
+    /* font: 'Roboto'; */
+    font-family: Roboto sans-serif;
+}
+
+
+.header {
+    box-shadow: 0 1px 5px lightgrey;
+    height: 72px;
+    top: 0;
+    width:100%;
+    position: fixed;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 81px;
+}
+
+img .header_logo {
+    width: 120px;
+    display:block;
+}
+
+.header_attr {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 81px;
+}
+
+.header_cart {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.header_login {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+img .header_cart {
+    width:19px;
+    height:22px;
+    display: block;
+}
+
+button {
+    height:40px;
+    width:78px;
+    padding:14px;
+    background-color: white;
+    color: #1D1D1D;
+    border-color: #E0E0E0;
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 5%;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.restaurant_find {
+    position: relative;
+    margin: 104px 81px 0 81px;
+    height: 24px;
+}
+
+.form_search {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #979797;
+}
+
+.form_search > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+    background: transparent;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.restaurant_header > h2 {
+    display: block;
+    margin: 50px 81px auto 81px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+
+.restaurant_list {
+    /* width: 100%; */
+    display: flex;
+    margin: 10px 81px 80px 81px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: #1D1D1D;
+}
+
+.restaurant_card {
+    box-sizing: border-box;
+    display: block;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 366px;
+    /* margin-right: -8px;
+    margin-left: -8px; */
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+}
+
+.card__title {
+    font-size: 16px;
+    height: 24px;
+    margin: 20px 0 0 0;
+}
+
+.card__text {
+    color: #626262;
+    font-size: 14px;
+    height: 21px;
+    margin: 0;
+}
+
+.card__time {
+    font-size: 13px;
+    height: 21px;
+    margin: 0;
+}
+
+.footer {
+    background-color: #262626;
+    padding: 50px 81px 40px 81px;
+
+}
+
+.footer_logo {
+    margin-bottom: 40px;
+}
+
+img .footer_logo {
+    width: 190px;
+    height: 20px;
+    display:block;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links a {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* .links {
+    justify-content: space-around;
+} */
+
+.leftcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 160px;
+}
+
+.lang_section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.shape {
+    background-color: #3b3b3b;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.lang_select {
+    width: 60%;
+    height: 40px;
+    background: #3b3b3b;
+    border: none;
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.hash_ubereats {
+    font-size: 16px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+.line {
+    height: 1px;
+    background: #ffffff;
+    opacity: 0.4;
+}
+
+.download_links {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.app_link {
+    /* width: 120px; */
+    height: 40px;
+    margin: 20px;
+}
+
+.bottom_footer p {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+.bottom_footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.button-up {
+    z-index: 1;
+    position: fixed;
+    opacity: 0.8;
+    bottom: 45px;
+    right: 45px;
+}
+
+.banner {
+    background: url(img/banner.png) no-repeat;
+    width: auto;
+    background-size:cover;
+    height: 464px;
+    padding: 0 80px 0 80px;
+    align-items: center;
+    display: flex;
+}
+
+.restaurant_title {
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+.restaurant_title h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    /* margin-bottom:0; */
+}
+
+.adding_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 30px;
+}
+
+.adding_info button {
+    padding: 0px;
+    text-align: center;
+    background-color: #262626;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.adding_info p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* .menu {
+    
+} */
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    padding: 0 80px 0 80px;
+}
+
+.categories li {
+    display: block;
+    margin: 20px 40px 20px 0;
+    color: #626262;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#entry_menu {
+    color: #327430;
+}
+
+.dish_list {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.restaurant_line {
+    height: 1px;
+    background: #757575;
+    opacity: 0.2;
+}
+
+.dish_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 80px 0 80px;
+}
+
+.dish_card {
+    height: 160px;
+    border: rgba(117, 117, 117, .2) 1px solid;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card_desc {
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    margin-left: 20px; 
+}
+
+.dish_img {
+    height: 160px;
+    width: 170px;
+}
+
+.dish_title {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 24px; */
+}
+
+.dish_title.text {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    color: #626262;
+}
+
+

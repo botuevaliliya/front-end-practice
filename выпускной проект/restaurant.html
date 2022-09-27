@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Трактир Пушкин</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_logo">
+        <a href="stores.html">
+          <img src="img/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="header_attr">
+        <div class="header_login">
+            <a href="#">
+                <button>Войти</button>
+              </a>
+        </div>
+        <div class="header_cart">
+            <a href="#">
+                <img src="img/basket.svg" alt="cart" />
+              </a>
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+        <div class="restaurant_title col-sm-12 col-md-7 col-lg-5">
+            <h1>Трактир «Пушкин»</h1>
+            <div class="adding_info">
+                <p>₽₽₽ • Европейская</p>
+                <button>25 - 35 Min</button>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <ul class="categories">
+            <a href=""><li id="entry_menu">Закуски</li></a>
+            <a href=""><li>Салаты</li></a>
+            <a href=""><li>Супы</li></a>
+            <a href=""><li>Горячие блюда</li></a>
+            <a href=""><li>Гарниры</li></a>
+            <a href=""><li>Десерты</li></a>
+        </ul>
+        <div class="restaurant_line"></div>
+        <div class="restaurant_header">
+                <h2 class="h">Закуски</h2>
+        </div>	
+            <div class="dish_list">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <a href="">
+                            <div class="dish_card">
+                                <div class="card_desc">
+                                    <p class="dish_title">Сельдь на бородинском хлебе</p>
+                                    <p class="dish_title text">С яйцом и огурцом</p>
+                                    <p class="dish_price">240 ₽</p>
+                                </div>
+                                <img class="dish_img" src="img/photo-5.png" alt="dish image">    
+                          </div></a>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                        <a href="">
+                            <div class="dish_card">
+                                <div class="card_desc">
+                                    <p class="dish_title">Соленья ассорти</p>
+                                    <p class="dish_price">320 ₽</p>
+                                </div>
+                                <img class="dish_img" src="img/photo-4.png" alt="dish image">
+                          </div></a>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                        <a href="">
+                            <div class="dish_card">
+                                <div class="card_desc">
+                                    <p class="dish_title">Грибы маринованные</p>
+                                    <p class="dish_price">300 ₽</p>
+                                </div>
+                                <img class="dish_img" src="img/photo-3.png" alt="dish image">
+                          </div></a>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                        <a href="">
+                            <div class="dish_card">
+                                <div class="card_desc">
+                                    <p class="dish_title">Сало домашнее с горчицей</p>
+                                    <p class="dish_price">320 ₽</p>
+                                </div>
+                                <img class="dish_img" src="img/photo-2.png" alt="dish image">    
+                          </div></a>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                        <a href="">
+                            <div class="dish_card">
+                                <div class="card_desc">
+                                    <p class="dish_title">Малосольная семга</p>
+                                    <p class="dish_price">390 ₽</p>
+                                </div>
+                                <img class="dish_img" src="img/photo-1.png" alt="dish image">   
+                          </div></a>
+                      </div>
+                      <div class="col-sm-12 col-md-12 col-lg-6">
+                        <a href="">
+                            <div class="dish_card">
+                                <div class="card_desc">
+                                    <p class="dish_title">Язык говяжий с хреном</p>
+                                    <p class="dish_price">350 ₽</p>
+                                </div>
+                                <img class="dish_img" src="img/photo.png" alt="dish image"> 
+                          </div></a>
+                      </div>  
+                </div>
+            </div>
+        </div>
+    <div class="footer">
+				<div class="button-up" id="button-up">
+          <a href="#"><img src="img/btn-up.png" alt="btn-up" title="btn-up">
+	        </a>	
+        </div>
+        <div class="footer_logo">
+          <img src="img/white-logo.svg" alt="logo" />
+        </div>
+        <div class="line"></div>
+        <div class="links">
+          <div class="leftcontent col-xs-12 col-md-4 col-lg-4">
+              <div class="lang_section">
+                  <img src="img/world.svg" class="shape" />
+                  <select class="lang_select" id="lang">
+                    <option value="ru">Русский</option>
+                    <option value="en">English</option>
+                  </select>
+              </div>
+              <div class="hash_ubereats"><span style="color:#49A144;">#</span>UberEats</div>
+              <div class="social">
+                <a href="#"><img src="img/facebook.svg" alt="fb"></a>
+                <a href="#"><img src="img/twitter.svg" alt="tw"></a>
+                <a href="#"><img src="img/instagram.svg" alt="ig"></a>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4">
+              <div class="centrcontent">
+                  <p><a href="#">Об UberEats</a></p>
+                  <p><a href="#">Станьте партнёром по доставке</a></p>
+                  <p><a href="#">Станьте парнёром-рестораном</a></p>
+              </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4">
+              <div class="rightcontent">
+                  <p><a href="#">Все города</a></p>
+                  <p><a href="#">Цены</a></p>
+                  <p><a href="#">Помощь</a></p>
+                  <p><a href="#">FAQs</a></p>
+              </div>
+          </div>
+        </div> 
+        <div class="line" style="margin-top: 40px"></div>
+        <div class="download_links">
+          <img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" class="app_link"/>
+          <img src="img/en_badge_web_generic-cf6dad406f.png" class="app_link"/>
+        </div>
+        <div class="line"></div>
+        <div class="bottom_footer">
+          <div class="col-xs-12 col-md-4 col-lg-4">
+            <p>© 2017 Uber Technolo</p>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <p>Обработка персональных данных</p>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <p>Пользовательское соглашение</p>
+        </div>
+      </div> 
+    </div>
+  </body>
+</html>
