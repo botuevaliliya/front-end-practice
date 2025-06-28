@@ -15,7 +15,7 @@ Certificate: [View Credential](https://www.coursera.org/account/accomplishments/
 
 ---
 
-### 🛠 Skills Practiced
+### Skills Practiced
 
 - React components, props, state
 - JSX templating and dynamic rendering
