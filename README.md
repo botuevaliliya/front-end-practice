@@ -28,6 +28,6 @@ I also earned the **Google UX Design Certificate**, learning how to approach use
 
 📜 [Meta Certificate](https://www.coursera.org/account/accomplishments/specialization/4PQL8DECFASR)  
 🎨 [Figma Design – Little Lemon](https://www.figma.com/design/Z7wCXnUGfZc2CdSxj8g1S8/Little-Lemon-Figma?node-id=9-426&t=wqzzs9r5uDuftoVw-1)  
-🌐 [Deployed React Project](https://coursera-front-end-lb.netlify.app)
+🌐 [Deployed React Project](https://coursera-front-end-lb.netlify.app)  
 📜 [Google UX Certificate](https://www.coursera.org/account/accomplishments/specialization/MMVQMUC8Z5PR)
 
