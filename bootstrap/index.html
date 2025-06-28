@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">НЛК</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#portfolio">Портфолио</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Рейтинг</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Помощь</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid" id="portfolio">
+      <div class="container">
+        <h1
+          class="display-3"
+          style="font: Roboto; font-size: 72px; padding-top: 0px"
+        >
+          Портфолио
+        </h1>
+        <p
+          class="lead col-lg-7 col-md-11 col-xs-12"
+          style="font-size: 16px; text-align: left; padding: 0; margin-top: 8"
+        >
+          Это место, где собраны ваши научные публикации. Здесь вы можете
+          добавлять свои научные работы, получать информацию об их уникальности
+          и смотреть отзывы ваших научных руководителей.
+        </p>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg"
+          data-toggle="modal"
+          data-target="#addWork"
+        >
+          Добавить работу
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <section class="col col-lg-5 col-md-7 col-xs-12">
+          <div class="card text-black bg-light mb-4">
+            <div class="card-header" style="font-size: 16px; font: Roboto">
+              Ваш профиль
+            </div>
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style="font-size: 20px; font: Roboto; font-weight: 400"
+              >
+                Сергей Павлович Фролов
+              </h5>
+              <p class="card-text" style="font-size: 16px; font: Roboto">
+                <strong>Научная степень: </strong>Магистр.<br />
+                <strong>Специализация: </strong>Инвестиционные проблемы
+                экономически развивающихся рынков.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#addWork"
+              >
+                Редактировать
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="col col-lg-4 col-md-5 col-xs-12">
+          <div class="card text-black bg-light mb-4">
+            <div class="card-header" style="font-size: 16px; font: Roboto">
+              Статистика
+            </div>
+            <div class="card-body">
+              <p class="card-text" style="font-size: 16px; font: Roboto">
+                <strong>На платформе:</strong> 2 года.<br />
+                <strong>Добавлено работ: </strong>10.<br />
+                <strong>Средняя уникальность: </strong>75%.<br />
+                <strong>Языки работ: </strong>русский, английский.<br />
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container">
+        <table class="table table-bordered table-responsive-sm col-lg-12 col-md-12 col-xs-12 mt-2">
+          <thead>
+            <tr>
+              <th scope="col">Название работы</th>
+              <th scope="col">Дата загрузки</th>
+              <th scope="col">Научный руководитель</th>
+              <th scope="col">Уникальность</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th style="color: #007BFF; font-weight:400;"><a href="#">Привлечение инвестиций как фактор развития экономики</a></td>
+              <td>21.05.2019</td>
+              <td style="color: #007BFF; font-weight:400;">Асаншоева А.М.</td>
+              <td style="color: #007BFF; font-weight:400;">89%</td>
+            </tr>
+            <tr>
+              <th style="color: #007BFF; font-weight:400;"><a href="#">The role of accounting in sustainable development</a></th>
+              <td>11.02.2019</td>
+              <td style="color: #007BFF; font-weight:400;">Шаляпина В.С.</td>
+              <td style="color: #007BFF; font-weight:400;">78%</td>
+            </tr>
+            <tr>
+              <th style="color: #007bff; font-weight:400;"><a href="#">Сценарный анализ как инструмент учета рисков инвестиционного
+                проекта</a></th>
+              <td>05.09.2018</td>
+              <td style="color: #007bff; font-weight:400;">Васильев М.Г.</td>
+              <td style="color: #007bff; font-weight:400;">67%</td>
+            </tr>
+            <tr>
+                <td style="color: #007bff; font-weight:400;"><a href="#">Глобальные и региональные инвестиционные тенденции</a></td>
+                <td>09.07.2018</td>
+                <td style="color: #007bff; font-weight:400;">Асаншоева А.М.</td>
+                <td style="color: #007bff; font-weight:400;">73%</td>
+           </tr>
+           <tr>
+                <td style="color: #007bff; font-weight:400;"><a href="#">Systemic risks in financial markets</a></td>
+                <td>10.05.2018</td>
+                <td style="color: #007bff; font-weight:400;">Леонидов В.Б.</td>
+                <td style="color: #007bff; font-weight:400;">77%</td>
+           </tr>
+           <tr>
+                <td style="color: #007bff; font-weight:400;"><a href="#">The influence of tax regulation liberalisation on the domestic debt market</a></td>
+                <td>21.05.2019</td>
+                <td style="color: #007bff; font-weight:400;">Шаляпина В.С.</td>
+                <td style="color: #007bff; font-weight:400;">82%</td>
+           </tr>
+           <tr>
+                <td style="color: #007bff; font-weight:400;"><a href="#">Биткоин как новый вид инвестиций</a></td>
+                <td>29.01.2018</td>
+                <td style="color: #007bff; font-weight:400;">Асаншоева А.М.</td>
+                <td style="color: #007bff; font-weight:400;">71%</td>
+           </tr>
+           <tr>
+                <td style="color: #007bff; font-weight:400;"><a href="#">Проблема воспроизводства жилищного фонда в России</a></td>
+                <td>08.11.2017</td>
+                <td style="color: #007bff; font-weight:400;">Васильев М.Г.</td>
+                <td style="color: #007bff; font-weight:400;">65%</td>
+            </tr>
+           <tr>
+                <td style="color: #007bff; font-weight:400;"><a href="#">Влияние безработицы на экономику СНГ</a></td>
+                <td>21.05.2019</td>
+                <td style="color: #007bff; font-weight:400;">Васильев М.Г.</td>
+                <td style="color: #007bff; font-weight:400;">68%</td>
+           </tr>
+           <tr>
+                <td style="color: #007bff; font-weight:400;"><a href="#">Мировой валютный рынок Форекс</a></td>
+                <td>02.07.2017</td>
+                <td style="color: #007bff; font-weight:400;">Васильев М.Г.</td>
+                <td style="color: #007bff; font-weight:400;">67%</td>
+           </tr>
+          </tbody>
+        </table>
+    </div>
+    <div class="card" style="margin-top:60px;">
+        <div class="card-header" style="font-size: 16px;font-weight: 400;color: #6C757D;">
+            © Научный личный кабинет. Все права защищены
+        </div>
+  </body>
+</html>
